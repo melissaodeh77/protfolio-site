@@ -1,0 +1,36 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.portfolios{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.portfolio{
+    float :left;
+    background-color: white;
+    border: solid white;
+    padding: 30px 0;
+    width: calc((100% - 15px)/3);
+    margin-right: 5px;
+
+}
+h2{
+    color: black;
+    margin-bottom: 10px;
+}
+h3{
+    color: black;
+    margin-bottom: 10px;
+}
+p{
+    color: black;
+}
+img{
+    width:100%;
+}
+.clearfix{
+    clear: both;
+}
